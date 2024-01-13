@@ -20,6 +20,10 @@ from AppMuebles.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("serie/", ver_serie),
-    path("", inicio),
+    path("", inicio, name="Inicio"),
+
+    #URLS de los modelos creados
+    path("sur/", viaje_sur, name="Sur"),
+    path("norte/", viaje_norte, name="Norte"),
+    path("centro/", viaje_centro, name="Centro"),
 ]

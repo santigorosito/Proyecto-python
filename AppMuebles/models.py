@@ -1,8 +1,18 @@
 from django.db import models
 
-class Serie(models.Model):
+class Sur(models.Model):
+    nombre = models.CharField(max_length=150)
+    descripcion = models.CharField(max_length=3000)
+    precio = models.IntegerField()
 
-    nombre = models.CharField(max_length=40)
-    año = models.IntegerField()
-    genero = models.CharField(max_length=30)
+class Norte(models.Model):
+    nombre = models.CharField(max_length=150)
+    descripcion = models.CharField(max_length=3000)
+    precio = models.IntegerField()
+
+class Centro(models.Model):
+    nombre = models.CharField(max_length=150)
+    descripcion = models.CharField(max_length=3000)
+    precio = models.IntegerField()
+
 
