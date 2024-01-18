@@ -26,4 +26,7 @@ urlpatterns = [
     path("sur/", viaje_sur, name="Sur"),
     path("norte/", viaje_norte, name="Norte"),
     path("centro/", viaje_centro, name="Centro"),
+    path("form_sur/", agregar_viajesur),
+    path("form_centro/", agregar_viajecentro),
+    path("form_norte/", agregar_viajenorte),
 ]
