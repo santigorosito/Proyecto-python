@@ -272,5 +272,6 @@ class EliminarCentro(DeleteView):
     fields = ["lugar", "descripcion", "precio"]
     success_url = "/centro/"
 
+@login_required
 def sobre_mi(request):
     return render(request, "AppMuebles/sobreMi.html")
