@@ -41,6 +41,9 @@ Tecnología Utilizada (Front-End, Back-End):
 5) Python 3.11.7
 6) Django 5.0
 
+Acá le dejo un video sobre la pagina y los contenidos:
+https://www.youtube.com/watch?v=BdKZDQQCkbk
+
 Comisión 50195
 Santiago Gorosito
 Para inicar el servidor, necesitaras **Django** instalado. Luego de instalarlo poner en la terminal el comando `python manage.py runserver`.
