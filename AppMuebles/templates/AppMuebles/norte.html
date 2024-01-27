@@ -1,3 +1,14 @@
 {% extends "AppMuebles/padre.html" %}
 
 {% block titulo %} Aca vas a poder ver los paquetes que hay para el Norte de ARG {% endblock %}
+
+{{norte1}}
+
+{% block contenido1 %}
+<ul class="viajes">
+    {% for x in object_list %}
+        <li class="form">{{x.lugar}} - {{x.descripcion}} - Precio: {{x.precio}}</li>
+    {% endfor %}
+</ul>
+<button class="btn btn-primary"><a class="navbar-brand" href="{% url 'nuevo viaje N' %}">Agregar viaje</a></button>
+{% endblock %}

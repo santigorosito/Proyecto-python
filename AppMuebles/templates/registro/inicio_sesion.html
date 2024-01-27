@@ -1,0 +1,12 @@
+{% extends "AppMuebles/padre.html" %}
+
+{% block titulo %} 
+    Acá iniciamos sesión
+{% endblock %}
+
+{% block contenido1 %}
+    <form action="" method="POST"> {% csrf_token %} 
+        {{formu}}
+        <input type="submit" value="Iniciar sesión">
+    </form>
+{% endblock %}

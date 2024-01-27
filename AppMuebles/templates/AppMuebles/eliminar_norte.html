@@ -1,9 +1,8 @@
 {% extends "AppMuebles/padre.html" %}
 
 {% block titulo %}
-    <h1>Agregar el viaje para el Sur</h1>
     <form action="" method="post"> {% csrf_token %}
-        {{form.as_p}}
-        <input type="submit" value="Guardar">
+        <h3>¿Estas seguro de borrar el viaje "{{object}}"?</h3>
+        <input type="submit" value="Eliminar">
     </form>
 {% endblock %}

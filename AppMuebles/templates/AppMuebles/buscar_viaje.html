@@ -1,0 +1,15 @@
+{% extends "AppMuebles/padre.html" %}
+
+{% block titulo %}
+    <h1>Donde les gustaria ir ?</h1>
+
+    <form action="/resultadoViajes/" method="GET">
+    Ingrese donde le gustaria viajar: <input type="text" name="Viaje">
+    <input type="submit" value="Buscar">
+    </form> 
+    {% if viajes %}
+    {% for x in viajes %}
+    <h3 class="text-center">{{x.lugar}}</h3>
+    {% endfor %}
+    {% endif %}
+{% endblock %}

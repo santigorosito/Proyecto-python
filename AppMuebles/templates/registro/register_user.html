@@ -1,0 +1,12 @@
+{% extends "AppMuebles/padre.html" %}
+
+{% block titulo %} 
+    Registro de sesion
+{% endblock %}
+
+{% block contenido1 %}
+    <form action="" method="POST"> {% csrf_token %} 
+        {{formu}}
+        <input type="submit" value="Registrarse">
+    </form>
+{% endblock %}
