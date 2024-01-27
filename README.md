@@ -19,6 +19,28 @@ Los models que cree:
 14) Para registrarse, URL = http://127.0.0.1:8000/signup/
 15) Para cerrar sesionhttp, URL = //127.0.0.1:8000/logout/
 16) Para editar nuestro perdil, URL = http://127.0.0.1:8000/edit/
+17) Para saber un poco sobre mi, URL = http://127.0.0.1:8000/sobremi/
 
+ Los usuarios pueden realizar las siguientes accciones:
+   Ver un como sobre mi
+   Visualizar los diferentes viajes a su disposicion 
+   Agregar viajes
+   Eliminar viajes
+   Editar viajes
+   Editar el perfil de Usuario
+   Cambiar la contraseña de Usuario
+   Cerrar Sesión
+   Iniciar Sesión
 
+Tecnología Utilizada:
+  Front-End:
+    HTML 5
+    CSS 3
+    Javascript ES6
+    Bootstrap 5.2
+    
+  Back-End:
+    Python 3.11.7
+    Django 5.0
+    
 Para inicar el servidor, necesitaras **Django** instalado. Luego de instalarlo poner en la terminal el comando `python manage.py runserver`.
